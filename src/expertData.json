@@ -1,0 +1,18 @@
+{
+    "expertDetails":[
+        {
+            "id" : 1,
+            "userName" : "Neeraj Sharma",
+            "userDesignation" : "Drawing Expert",
+            "userDescription" : "Your drawing skills have reached new heights! Your attention to detail, mastery of techniques, and creative expression are truly impressive.",
+            "userImageUrl" : "/src/images/Neeraj.png"
+        },
+        {
+            "id" : 2,
+            "userName" : "Kanika Rajput",
+            "userDesignation" : "Founder & Director, Kalakrit Art Studio",
+            "userDescription" : "Congratulations on your outstanding performance in the academy competition! Your painting stood out among the rest, showcasing your exceptional skill and artistry.",
+            "userImageUrl" : "/src/images/Kanika_Rajput.jpg"
+        }
+    ]
+}

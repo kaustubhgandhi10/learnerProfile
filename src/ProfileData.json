@@ -1,0 +1,37 @@
+{
+    "clientDetails" : [
+        {
+            "id":1,
+            "clientName":"Nikhil Malik",
+            "leader":"#Weeklyleader",
+            "clientDescription":"I am an creative individual passionate about artistic expression and strategic thinking. Lorem ipsum dolor sit amet, consectetuer adipiscing elit Lorem adipiscing elit",
+            "clientImageUrl" :"/src/images/Nikhil.jpg"
+        }
+    ],
+    "current":"Your Current",
+    "level":"Level",
+    "levelNumber":4,
+    "levelPoints":"You Improved it by 135 points from last week",
+    "scoreName1":"XP",
+    "scoreName2":"Beryls",
+    "scoreName3":"Streaks",
+    "scoreNumber1":"135/200",
+    "scoreNumber2":109,
+    "scoreNumber3":22,
+    "skillGarden":"Skill Garden",
+    "skillName":"Sprouting",
+    "skillInfo":"Your skills are growing!",
+    "skillBadges":"Skill Badges",
+    "badgeName1":"Palette Pioneer",
+    "badgeName2":"Tactical Titan",
+    "badgeName3":"Skill Badge Title",
+    "topAchievements":"Top Achievements",
+    "acheivementName1":"Artistic Visionary",
+    "acheivementName2":"Grandmaster Showdown",
+    "acheivementName3": "Achivement Title",
+    "acheivementName4": "Achivement Title",
+    "learningBadges":"Learning Badges",
+    "learning1": "Rise & Shine",
+    "learning2": " Badge Title",
+    "glowingReviews":"Glowing Reviews"
+}

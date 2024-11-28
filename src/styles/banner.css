@@ -1,0 +1,9 @@
+#banner img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #banner img {
+    content: url("../images/Asset_mob_banner.jpg");
+  }
+}

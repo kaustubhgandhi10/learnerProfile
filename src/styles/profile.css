@@ -1,0 +1,1000 @@
+/* Profile CSS STARTS */
+#profile {
+  background: #f9f9f9;
+  padding: 2rem 0 3rem 0;
+}
+
+/* profileHeading CSS STARTS */
+
+#profileHeading img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 5px solid var(--blueFont);
+  margin-right: 20px;
+}
+
+#profileHeading {
+  margin-bottom: 4rem;
+  /* background-image: url(../images/1_shape3-16.png); */
+  background-repeat: no-repeat;
+}
+
+.profileLine {
+  width: 85%;
+  display: block;
+  margin: auto;
+  opacity: 0.35;
+  border: 1px solid var(--greyQrencia);
+  margin-bottom: 6px;
+  margin-top: 1px;
+}
+#profilePhoto h2 {
+  display: inline-block;
+}
+
+#profilePhoto {
+  display: flex;
+  margin-bottom: 2.1rem;
+}
+
+#personDetails {
+  padding: 1rem 0;
+}
+
+#personDetails h2 {
+  color: var(--blueFont);
+  margin-bottom: 0.3rem;
+}
+
+#personDetails p {
+  font-size: 0.8rem;
+}
+
+#personDetails span {
+  background: var(--blueFont);
+  border-radius: 11px;
+  font-size: 0.7rem;
+  padding: 2px 10px;
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+#profileLevel img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+  border: none;
+  margin-right: 6px;
+}
+
+/* ProfileDetails CSS STARTS */
+.whiteBox {
+  background-color: var(--whiteFont);
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+
+#profileLevel {
+  background-color: var(--bluebackground);
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#profileLevel p {
+  font-size: 0.7rem;
+  padding: 0px 30px;
+}
+
+#profileLevel h2 {
+  color: var(--blueFont);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
+#profileLevel h3 {
+  color: var(--blueFont);
+  font-size: 5rem;
+  margin-top: -0.7rem;
+  margin-bottom: -0.4rem;
+}
+
+.scores {
+  background-color: #c5e2f5;
+  border-radius: 15px;
+  padding: 14px 25px;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileScore img {
+  width: 30px !important;
+  border: none !important;
+  height: 30px !important;
+  margin-right: 7px !important;
+}
+
+.scores h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.scores span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Skill Garden CSS Starts */
+
+#skillGarden .scores {
+  display: block;
+  margin: 0;
+}
+
+#skillGarden h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+#skillGarden h3 {
+  font-size: 1.1rem;
+  color: var(--blueFont);
+  margin-bottom: 3px;
+}
+
+#skillGarden p {
+  font-size: 0.9rem;
+}
+
+.GardenImage {
+  width: 87%;
+  display: block;
+  margin: auto;
+}
+
+.skillBox {
+  /* background-image: url(../images/1_shape2.png); */
+  background-repeat: no-repeat;
+}
+
+.skillBox .whiteBox {
+  padding-bottom: 0;
+}
+
+#skills {
+  margin-bottom: 5.2rem;
+}
+
+.skillHead {
+  margin-bottom: 1.2rem;
+}
+
+/* Certifications CSS Starts */
+
+#certifications {
+  background-image: url(/src/images/1_shape3-17.png),
+    url(/src/images/1_shape2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 115% 237%, -8% 86%;
+  background-size: 33%, 13%;
+}
+
+#skills .whiteBox {
+  padding: 3rem 0.8rem 0.8rem;
+}
+
+#skills .whiteBox img {
+  width: 55%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+#skills h3 {
+  color: var(--blueFont);
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.learnings img {
+  width: 18%;
+  float: left;
+  margin-right: 0.3rem;
+}
+
+.learnings h3 {
+  color: var(--blueFont);
+}
+
+.learnings p {
+  font-size: 0.7rem;
+}
+
+#learnings .whiteBox {
+  padding: 2rem 1rem;
+}
+
+.achievements {
+  background-color: var(--bluebackground);
+  padding: 0.7rem 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+
+.achievements img {
+  float: left;
+  width: 13%;
+  margin-right: 0.8rem;
+}
+
+.acheivementTitle {
+  padding: 0.4rem;
+}
+
+.acheivementTitle h3 {
+  color: var(--blueFont);
+  margin-bottom: 0.2rem;
+}
+
+.acheivementTitle p {
+  font-size: 0.7rem;
+}
+
+#badges .whiteBox {
+  padding: 2rem 1rem;
+}
+
+#profileShapes {
+  background-image: url(/src/images/1_shape3-16.png),
+    url(/src/images/1_shape2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -5% 105%, 106% 132%;
+  background-size: 250px;
+}
+
+#badges {
+  /* background-image: url(../images/1_shape2.png); */
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.badgeLine {
+  width: 97%;
+  display: block;
+  margin: auto;
+  opacity: 0.15;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+/* Spotlight CSS Starts */
+
+#spotlight {
+  background-color: var(--bluebackground);
+  padding: 1.5rem 0;
+  margin-bottom: 0.8rem;
+}
+
+#spotlight .section {
+  margin: 0;
+}
+
+#empty {
+  padding: 1.4rem 0;
+  background-color: var(--bluebackground);
+  margin-bottom: 2rem;
+}
+
+.profile-carousel {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.carousel-item {
+  padding: 10px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 160px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Reviews CSS Starts */
+
+#reviews img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#reviews {
+  background-image: url(/src/images/1_shape2.png),
+    url(/src/images/1_shape3-17.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 106% 164%, -18% -34%;
+  background-size: 21%, 33%;
+}
+
+#reviews .section {
+  margin-bottom: 2rem;
+}
+
+#reviews h3 {
+  margin-bottom: 0.3rem;
+}
+
+.reviewDetails {
+  margin-bottom: 1rem;
+}
+
+.designation {
+  margin-bottom: 0.8rem;
+  color: var(--greyQrencia);
+  font-size: 0.8rem;
+}
+
+#reviews .whiteBox {
+  padding: 2rem 3rem;
+  width: 97%;
+  border: 12px solid var(--blueFont);
+}
+
+.date {
+  color: var(--greyQrencia);
+  font-size: 0.6rem;
+  text-align: end;
+}
+
+/* MEDIA QUERY STARTS*/
+
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1080px !important;
+  }
+
+  .GardenImage {
+    height: 270px;
+  }
+
+  #profilePhoto img {
+    width: 35%;
+  }
+
+  .achievements img {
+    height: 50px;
+  }
+
+  .acheivementTitle {
+    padding: 0;
+  }
+
+  #skills {
+    margin-bottom: 3.2rem;
+  }
+
+  #reviews img {
+    width: 17%;
+    margin-bottom: 0.6rem;
+    height: 57px;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1024px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 900px !important;
+  }
+
+  #profileShapes {
+    background-position: -6% 105%, 108% 118%;
+    background-size: 203px;
+  }
+
+  .GardenImage {
+    height: 270px;
+  }
+
+  #profilePhoto img {
+    width: 50%;
+  }
+
+  .achievements img {
+    height: 43px;
+  }
+
+  .acheivementTitle {
+    padding: 0;
+  }
+
+  #skills {
+    margin-bottom: 3.2rem;
+  }
+
+  #skills h3 {
+    font-size: 1.1rem;
+  }
+
+  #reviews img {
+    width: 17%;
+    margin-bottom: 0.6rem;
+    height: 57px;
+  }
+
+  #personDetails h2 {
+    font-size: 1.7rem;
+  }
+
+  .scores {
+    padding: 12px 25px;
+  }
+
+  #profileLevel h3 {
+    font-size: 4.3rem;
+  }
+
+  .whiteBox {
+    padding: 14px 30px;
+  }
+
+  .acheivementTitle h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 800px !important;
+  }
+
+  #profileShapes {
+    background-position: -7% 103%, 105% 119%;
+    background-size: 200px;
+  }
+
+  #profileLevel {
+    padding: 8px 0;
+  }
+
+  .GardenImage {
+    height: 270px;
+  }
+
+  #profilePhoto img {
+    width: 55%;
+    height: 6.5rem;
+  }
+
+  .achievements img {
+    height: 38px;
+    margin-right: 0.5rem;
+  }
+
+  .acheivementTitle {
+    padding: 0;
+  }
+
+  #skills {
+    margin-bottom: 3rem;
+  }
+
+  #skills h3 {
+    font-size: 1.1rem;
+  }
+
+  #reviews img {
+    width: 24%;
+    margin-bottom: 0.6rem;
+    height: 57px;
+  }
+
+  #reviews h3 {
+    font-size: 1.3rem;
+  }
+
+  #personDetails h2 {
+    font-size: 1.5rem;
+  }
+
+  #profileLevel h2 {
+    font-size: 1.9rem;
+  }
+
+  .scores {
+    padding: 12px 25px;
+  }
+
+  #profileLevel h3 {
+    font-size: 3.7rem;
+  }
+
+  #skillGarden p {
+    font-size: 0.7rem;
+  }
+
+  .whiteBox {
+    padding: 18px 30px;
+  }
+
+  .scores span {
+    font-size: 1.2rem;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .acheivementTitle h3 {
+    font-size: 1.1rem;
+  }
+
+  .badgesDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  .learnings img {
+    height: 37px;
+    margin-right: 6px;
+  }
+
+  #skills .whiteBox {
+    padding: 3rem 0.3rem 0.8rem;
+  }
+
+  /* .profileScore img {
+    width: 22% !important;
+    border: none !important;
+    height: 26px !important;
+    margin-right: 4px !important;
+  } */
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #profile .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 680px !important;
+  }
+
+  #profileShapes {
+    background-position: -5% 105%, 115% 27%;
+    background-size: 188px;
+  }
+
+  #skillGarden h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+  }
+
+  #skillGarden h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  #skillGarden p {
+    font-size: 1rem;
+  }
+
+  .skillBox .whiteBox {
+    padding-bottom: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .GardenImage {
+    width: 42%;
+    position: absolute;
+    right: 50px;
+    top: 260px;
+  }
+
+  #profilePhoto img {
+    width: 40%;
+  }
+
+  #personDetails h2 {
+    font-size: 1.5rem;
+  }
+
+  #personDetails span {
+    font-size: 1rem;
+  }
+
+  #personDetails p {
+    font-size: 0.9rem;
+  }
+
+  /* .profileScore img {
+    width: 25% !important;
+    height: 32px !important;
+  } */
+
+  #skills .whiteBox img {
+    width: 45%;
+  }
+
+  #skills .whiteBox {
+    padding: 1.5rem 0.8rem 0.8rem;
+    width: 80%;
+  }
+
+  #skills h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .badgeLine {
+    opacity: 0.65;
+    margin-bottom: 9px;
+    margin-top: 20px;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .learnings img {
+    margin-left: 1.6rem;
+  }
+
+  .achievements img {
+    width: 11%;
+    height: 55px;
+  }
+
+  .acheivementTitle h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .achievements {
+    padding: 0.4rem 1.5rem;
+  }
+
+  .acheivementTitle p {
+    font-size: 0.8rem;
+  }
+
+  #skills {
+    margin-bottom: 2.5rem;
+  }
+
+  #badges .whiteBox {
+    margin-bottom: 2.5rem;
+  }
+
+  #profilePhoto {
+    margin-bottom: 0.8rem;
+  }
+
+  #skillGarden .scores {
+    width: 80%;
+  }
+  #reviews .whiteBox {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 430px) and (max-width: 576px) {
+  #profile .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 680px !important;
+  }
+
+  #profileShapes {
+    background-position: -13% 105%, 115% 18%;
+    background-size: 188px;
+  }
+
+  #skillGarden h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+  }
+
+  #skillGarden h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  #skillGarden p {
+    font-size: 0.8rem;
+  }
+
+  .skillBox .whiteBox {
+    padding-bottom: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .GardenImage {
+    width: 43%;
+    position: absolute;
+    right: 50px;
+    top: 215px;
+  }
+
+  #profilePhoto img {
+    width: 60%;
+    height: 7rem;
+  }
+
+  #personDetails h2 {
+    font-size: 1.3rem;
+  }
+
+  #personDetails span {
+    font-size: 0.9rem;
+  }
+
+  #personDetails p {
+    font-size: 0.8rem;
+  }
+
+  /* .profileScore img {
+    width: 25% !important;
+    height: 32px !important;
+  } */
+
+  #skills .whiteBox img {
+    width: 45%;
+  }
+
+  #skills .whiteBox {
+    padding: 1.5rem 0.8rem 0.8rem;
+    width: 95%;
+  }
+
+  #skills h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .badgeLine {
+    opacity: 0.65;
+    margin-bottom: 9px;
+    margin-top: 20px;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  #profile {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .learnings img {
+    margin-left: 0.6rem;
+  }
+
+  .achievements img {
+    width: 13%;
+    height: 48px;
+    margin-top: 4px;
+  }
+
+  .acheivementTitle h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .achievements {
+    margin-bottom: 1.2rem;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .scores h2 {
+    font-size: 1.2rem;
+  }
+
+  .scores span {
+    font-size: 1.2rem;
+  }
+
+  #profileLevel h3 {
+    font-size: 4.3rem;
+  }
+
+  .acheivementTitle p {
+    font-size: 0.8rem;
+  }
+
+  #skills {
+    margin-bottom: 2.5rem;
+  }
+
+  #badges .whiteBox {
+    margin-bottom: 2.5rem;
+  }
+
+  #profilePhoto {
+    margin-bottom: 0.8rem;
+  }
+
+  #skillGarden .scores {
+    width: 80%;
+  }
+  #reviews .whiteBox {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #profile .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 680px !important;
+  }
+
+  #profileShapes {
+    background-position: -13% 105%, 115% 18%;
+    background-size: 188px;
+  }
+
+  #skillGarden h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+  }
+
+  #skillGarden h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  #skillGarden p {
+    font-size: 0.8rem;
+  }
+
+  .skillBox .whiteBox {
+    padding-bottom: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .GardenImage {
+    position: absolute;
+    width: 42%;
+    right: 19px;
+    top: 208px;
+  }
+
+  #profilePhoto img {
+    width: 110px;
+    height: 110px;
+  }
+
+  #personDetails h2 {
+    font-size: 1.2rem;
+  }
+
+  #personDetails span {
+    font-size: 0.7rem;
+  }
+
+  #personDetails p {
+    font-size: 0.6rem;
+  }
+
+  #profileLevel p {
+    font-size: 0.6rem;
+  }
+
+  .scores {
+    padding: 12px 25px;
+  }
+
+  #skills .whiteBox img {
+    width: 70%;
+  }
+
+  #skills .whiteBox {
+    padding: 1.5rem 0.8rem 0.8rem;
+    width: 95%;
+  }
+
+  .badgesDetails h3 {
+    font-size: 1.2rem;
+  }
+
+  #skills h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .badgeLine {
+    opacity: 0.65;
+    margin-bottom: 9px;
+    margin-top: 20px;
+  }
+
+  .section h2 {
+    font-size: 1.4rem;
+  }
+
+  #profile {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .learnings img {
+    margin-left: 0.6rem;
+  }
+
+  .achievements img {
+    width: 45px;
+    height: 45px;
+    margin-top: 4px;
+    margin-right: 0.2rem;
+  }
+
+  .acheivementTitle h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .achievements {
+    margin-bottom: 1.2rem;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .scores h2 {
+    font-size: 1.2rem;
+  }
+
+  .scores span {
+    font-size: 1.2rem;
+  }
+
+  #profileLevel h3 {
+    font-size: 3.8rem;
+  }
+
+  .acheivementTitle p {
+    font-size: 0.7rem;
+  }
+
+  #skills {
+    margin-bottom: 2.5rem;
+  }
+
+  #badges .whiteBox {
+    margin-bottom: 2.5rem;
+  }
+
+  #profilePhoto {
+    margin-bottom: 0.8rem;
+  }
+
+  #skillGarden .scores {
+    width: 80%;
+  }
+  #reviews .whiteBox {
+    margin-bottom: 2rem;
+  }
+}
